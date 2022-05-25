@@ -1,10 +1,26 @@
 img {
   float: right;
+  border: 2px solid black;
+  padding: 4px;
+  box-sizing: border-box;
 }
 
 .sidebar {
+  border: 2px solid black;
   width: 20%;
   float: right;
   background-color: aqua;
   text-align: center;
+  padding: 4px;
+  margin: 6px;
+  box-sizing: border-box;
+}
+
+.main {
+  border: 2px solid black;
+  float: left;
+  width: 40%;
+  padding: 4px;
+  margin: 6px;
+  box-sizing: border-box;
 }
