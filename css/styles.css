@@ -1,0 +1,10 @@
+img {
+  float: right;
+}
+
+.sidebar {
+  width: 20%;
+  float: right;
+  background-color: aqua;
+  text-align: center;
+}
