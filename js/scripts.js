@@ -13,4 +13,9 @@ $("button#white").click(function() {
   $("body").removeClass();
   $("body").addClass("white-background");
 });
+  
+  $("p").click(function() {
+    $(".para-blue").toggle();
+    $(".para-yellow").toggle();
+  });
 });
